@@ -1,0 +1,170 @@
+/****************
+=Body shorthand 
+not working for 
+background
+****************/
+body {
+	font-size: 24px;
+	background: url(/home/ubuntu/Desktop/html/Freecodecamp/portfolio/img/bkgrd.jpg);
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+/****************
+=Header Nav Bar
+****************/
+
+nav {
+	background-color: rgba(161, 189, 150, 0.61);
+}
+
+nav ul {
+	display: inline;
+}
+
+nav ul li img {
+	left: 10px;
+	position: fixed;
+	margin-bottom: 5px;
+}
+
+nav ul li a {
+	position: fixed;
+	right: 10px;
+	text-decoration: none;
+	color: black;
+	font-family: sans-serif;
+	font-size: 30px;
+}
+
+nav a:hover {
+	color: white;
+}
+
+/****************
+=about_content 
+first page scroll
+****************/
+
+#content1,
+#content2,
+#content3,
+#aboutpage,
+footer {
+	margin: 60px 400px;
+	padding: 15px;
+	background-color: rgba(161, 189, 150, 0.61);
+}
+
+#content1 {
+	overflow: hidden;
+}
+
+.box {
+	width: 650px;
+	height: 200px;
+	margin-left: 20px;
+}
+
+.centerc {
+	text-align: center;
+}
+
+.myphoto {
+	float: right;
+	height: 150px;
+	width: 150px;
+	border: 3px solid black;
+	margin-top: -225px; 
+	margin-right: 100px;
+}
+
+/****************
+=portfolio_content 
+second page scroll
+****************/
+
+#content2 {
+}
+
+.center {
+	text-align: center;
+}
+
+.center a {
+	text-decoration: none;
+	color: black;
+	padding: 20px;
+}
+
+.center a:hover {
+	color: red;
+}
+
+p img {
+	width: 895px;
+	height: 450px;
+	margin: 20px 50px;
+}
+
+div h2 {
+	text-align: center;
+}
+
+/****************
+=contact_content 
+third page scroll
+****************/
+
+#content3 {
+}
+
+/****************
+=about page_social 
+links
+*****************/
+
+#aboutpage {
+}
+
+.floatr {
+	float: right;
+	margin-top: -110px;
+
+}
+
+.floatrul {
+	float: right;
+	margin-top: -50px;
+}
+
+.floatrul li {
+	display: inline;
+}
+
+.floatrul li a {
+	text-decoration: none;
+	color: black;
+}
+
+.floatrul li a:hover {
+	color: white;
+}
+
+/****************
+=footer
+****************/
+
+footer {
+	margin: auto;
+	padding: 5px 0px;
+	text-align: center;
+}
+
+button a {
+	text-decoration: none;
+	color: black;
+}
+
